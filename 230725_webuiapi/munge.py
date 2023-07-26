@@ -15,7 +15,7 @@ result1 = api.txt2img(prompt="cute squirrel",
                     )
 
 print(result1.info)
-                    
+
 
 """
 headers = {
