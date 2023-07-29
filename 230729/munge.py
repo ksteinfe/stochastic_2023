@@ -43,8 +43,6 @@ def _do_post_data(pdata, urlsuffix):
 
 		if response.status_code == 200:
 			response_data = response.json()
-
-			#for key, value in response_data.items(): print(key)
 			#print(response_data.get('parameters'))
 			#print(response_data.get('info'))
 
@@ -67,11 +65,7 @@ def _do_post_data(pdata, urlsuffix):
 
 
 
-def _append_depthimg(pdata, img):
-	
-    #base64_str = base64.b64encode(img).decode('utf-8')
-    #data = {'image': image_base64}   
-    
+def _append_depthimg(pdata, img):  
     buf = BytesIO() # Create a BytesIO object
     img.save(buf, format='PNG') # Save the image to the BytesIO object
     byte_data = buf.getvalue() # Get the byte data from the BytesIO object
