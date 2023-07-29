@@ -15,7 +15,6 @@ img_depth = Image.open("img_dpth/02.jpg")
 print("depth image loaded")
 
 
-
 unit1 = webuiapi.ControlNetUnit(
     input_image=img_depth, 
     module='depth', 
@@ -29,10 +28,11 @@ rslt1 = api.txt2img(
             prompt="a brutalist parking garage full of graffiti",
             width=512,
             height=512,
-            controlnet_units=[unit1],
+            #controlnet_units=[unit1],
             sampler_name="Euler a",
             cfg_scale=7,
            )
+print(rslt1)
 rslt1.image.save('{}.png'.format(timestamp))
 
 # upscale
