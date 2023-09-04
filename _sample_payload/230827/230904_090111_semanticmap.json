@@ -1,0 +1,26 @@
+[
+  {
+    "color": [
+      255,
+      0,
+      0
+    ],
+    "prompt": "red apple"
+  },
+  {
+    "color": [
+      0,
+      0,
+      255
+    ],
+    "prompt": "green pear"
+  },
+  {
+    "color": [
+      0,
+      128,
+      0
+    ],
+    "prompt": "blood orange"
+  }
+]

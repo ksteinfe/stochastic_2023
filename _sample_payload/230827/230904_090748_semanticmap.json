@@ -1,0 +1,26 @@
+[
+  {
+    "color": [
+      255,
+      0,
+      0
+    ],
+    "prompt": "a silver chandelier glowing brightly caustics"
+  },
+  {
+    "color": [
+      0,
+      0,
+      255
+    ],
+    "prompt": "a rustic wooden table of scandinavian design"
+  },
+  {
+    "color": [
+      0,
+      128,
+      0
+    ],
+    "prompt": "ornate golden wardrobe in the baroque style"
+  }
+]
